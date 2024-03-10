@@ -1,0 +1,41 @@
+{
+ "display_information": {
+  "name": "Hello",
+  "description": "You can update this later",
+  "background_color": "#4361ba",
+  "long_description": ""
+ },
+ "features": {
+  "app_home": {
+   "home_tab_enabled": false,
+   "messages_tab_enabled": false,
+   "messages_tab_read_only_enabled": true
+  },
+  "bot_user": {
+   "display_name": "Hello Bot",
+   "always_online": true
+  }
+ },
+ "oauth_config": {
+  "scopes": {
+   "bot": [
+    "commands",
+    "chat:write",
+    "app_mentions:read"
+   ]
+  }
+ },
+ "settings": {
+  "interactivity": {
+   "is_enabled": true
+  },
+  "event_subscriptions": {
+   "bot_events": [
+    "app_mention"
+   ]
+  },
+  "org_deploy_enabled": true,
+  "socket_mode_enabled": true
+ },
+ "outgoing_domains": []
+}
